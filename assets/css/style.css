@@ -3,7 +3,7 @@
 /*----------------------------------Colours */
 
 .bg-color-logo-footer {
-    background-color: rgb(204, 161, 190); 
+    background-color: rgb(167, 101, 145); 
 }
 
 .ui-menu-color-home {
@@ -64,6 +64,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 120px;
+    float: left;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -118,6 +119,14 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 } 
+
+/*----------------------------------Sections */
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url("../images/gemini-hero-image.jpeg") no-repeat cover;
+}
 
 /*----------------------------------Hover.css */
 
