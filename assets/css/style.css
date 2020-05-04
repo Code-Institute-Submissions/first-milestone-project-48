@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+body {
+    font-family: "Exo", sans-serif;
+}
 
 /*----------------------------------Colours */
 
@@ -53,6 +56,16 @@ h4 {
     display: inline-block;
 }
 
+.hr-line-medium {
+    height:4px; 
+    border:none; 
+    color:#17a2b8; 
+    background-color:#17a2b8; 
+    width:30%; 
+    text-align:center; 
+    margin: 10, 0, 20, 0 auto;
+}
+
 /*----------------------------------Heading */
 
 header {
@@ -64,10 +77,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 120px;
-    float: left;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .list-inline-item:not(:last-child) {
@@ -120,12 +133,23 @@ header {
     letter-spacing: 2px;
 } 
 
-/*----------------------------------Sections */
+.hero-heading {
+    text-align: center;
+    background-color: #e8dcdc;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 
-#hero-image {
-    height: 400px;
-    width: 100%;
-    background: url("../images/gemini-hero-image.jpeg") no-repeat cover;
+.hero-heading h2 {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;   
+    color: #17a2b8;
+}
+
+.hero-heading h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #062b53;
 }
 
 /*----------------------------------Hover.css */
@@ -159,16 +183,40 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #062b53;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #17a2b8;
 }
 
 #footer-details {
     padding: 20px;
 }
+
+/*----------------------------------Sections */
+
+#hero-image {
+    background: url("../images/gemini-hero-image.jpeg") no-repeat;
+    background-position: center;
+    height: 300px;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.statement-heading {
+    text-align: center;
+    padding-top: 20px;
+    color: #17a2b8;
+}
+
+.statement-heading p {
+    margin-top: 5px;
+    color: #062b53;
+}
+/*----------------------------------Media */
