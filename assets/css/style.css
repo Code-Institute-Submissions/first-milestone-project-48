@@ -3,6 +3,19 @@ body {
     font-family: "Exo", sans-serif;
 }
 
+.hero-container {
+    height: 400px;
+    width: 100%;
+
+    background: url("../images/gemini-hero-image.jpeg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
 /*----------------------------------Colours */
 
 .bg-color-logo-footer {
@@ -73,7 +86,7 @@ header {
 }
 
 .logo {
-    background: url("../images/gemini-logo.png");
+    background-image: url("../images/gemini-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     min-height: 120px;
@@ -149,7 +162,7 @@ header {
 .hero-heading h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    color: #062b53;
+    color: darkblue;
 }
 
 /*----------------------------------Hover.css */
@@ -163,7 +176,7 @@ header {
 
 footer {
     background-color: rgb(204, 161, 190);
-    color: #062b53;
+    color: darkblue;
     min-height: 120px;
     margin: 0;
 }
@@ -182,7 +195,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #062b53;
+    background: darkblue;
     -webkit-background-size: 100%;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -199,16 +212,6 @@ footer {
 
 /*----------------------------------Sections */
 
-#hero-image {
-    background: url("../images/gemini-hero-image.jpeg") no-repeat;
-    background-position: center;
-    height: 300px;
-    -webkit-background-size: 100%;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .statement-heading {
     text-align: center;
     padding-top: 20px;
@@ -217,6 +220,18 @@ footer {
 
 .statement-heading p {
     margin-top: 5px;
-    color: #062b53;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: darkblue;
 }
+
+.statement-slogan p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: #17a2b8;
+}
+
 /*----------------------------------Media */
