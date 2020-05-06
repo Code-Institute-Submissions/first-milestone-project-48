@@ -3,11 +3,13 @@ body {
     font-family: "Exo", sans-serif;
 }
 
+.container-wrapper {}
+
 .hero-container {
     height: 400px;
     width: 100%;
 
-    background: url("../images/gemini-hero-image.jpeg") no-repeat; 
+    background: url("../images/run-track2.jpg") no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,14 +71,29 @@ h4 {
     display: inline-block;
 }
 
-.hr-line-medium {
-    height:4px; 
-    border:none; 
-    color:#17a2b8; 
+.line-divider {
+    height:5px; 
+    border:0; 
     background-color:#17a2b8; 
-    width:30%; 
+    width: 75px; 
     text-align:center; 
-    margin: 10, 0, 20, 0 auto;
+    /*margin: 10, 0, 20, 0 auto;*/
+}
+
+.line-divider--short {
+    height:5px; 
+    border:0; 
+    background-color:#17a2b8; 
+    width: 35px; 
+    text-align:center;
+}
+
+.line-divider--large {
+    height:5px; 
+    border:0; 
+    background-color:#17a2b8; 
+    width: 200px; 
+    text-align:center;
 }
 
 /*----------------------------------Heading */
@@ -148,7 +165,8 @@ header {
 
 .hero-heading {
     text-align: center;
-    background-color: #e8dcdc;
+    background-color: rgb(167, 101, 145);
+    /*background-color: #e8dcdc;*/
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -156,13 +174,28 @@ header {
 .hero-heading h2 {
     font-family: "Exo", sans-serif;
     font-weight: 200;   
-    color: #17a2b8;
+    color: #fafafa;
 }
 
 .hero-heading h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    color: darkblue;
+    color: #05056d;
+}
+
+.class-header h2 {
+    margin-top: 0;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    color: #05056d;
+}
+
+.class-header h5 {
+    margin-top: 0;
+    font-family: "Exo", sans-serif;
+    text-align: left;
+    padding-top: 30px;
+    color: #05056d;
 }
 
 /*----------------------------------Hover.css */
@@ -176,7 +209,7 @@ header {
 
 footer {
     background-color: rgb(204, 161, 190);
-    color: darkblue;
+    color: #05056d;
     min-height: 120px;
     margin: 0;
 }
@@ -195,7 +228,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: darkblue;
+    background: #05056d;
     -webkit-background-size: 100%;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -222,7 +255,7 @@ footer {
     margin-top: 5px;
     font-size: 20px;
     margin-bottom: 0px;
-    color: darkblue;
+    color: #05056d;
 }
 
 .statement-slogan p {
@@ -231,6 +264,32 @@ footer {
     font-size: 20px;
     margin: 0px;
     padding: 0px;
+    color: #17a2b8;
+}
+
+.content-container {
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.classes {
+    margin-bottom: 25px;
+}
+
+/*----------------------------------Buttons */
+.class-header .btn:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+.class-header .btn {
+    background-color: lightgrey;
+    border-color: lightgrey;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
     color: #17a2b8;
 }
 
