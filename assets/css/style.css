@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 body {
     font-family: "Exo", sans-serif;
 }
 
 .container-wrapper {}
 
+.container-wrapper--orange {
+    background-color: #e67e22;
+    color: white;
+}
+
 .hero-container {
-    height: 400px;
+    height: 500px;
     width: 100%;
 
     background: url("../images/run-track2.jpg") no-repeat; 
@@ -14,6 +20,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 
     position: relative;
 }
@@ -71,13 +78,15 @@ h4 {
     display: inline-block;
 }
 
+/*----------------------------------Dividers */
+
 .line-divider {
     height:5px; 
     border:0; 
     background-color:#17a2b8; 
     width: 75px; 
     text-align:center; 
-    /*margin: 10, 0, 20, 0 auto;*/
+    margin: 10, 0, 20, 0 auto;
 }
 
 .line-divider--short {
@@ -205,6 +214,12 @@ header {
     height: 120px;
 }
 
+.class-header .btn:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
 /*----------------------------------Footer */
 
 footer {
@@ -276,12 +291,18 @@ footer {
     margin-bottom: 25px;
 }
 
-/*----------------------------------Buttons */
-.class-header .btn:hover {
-    background-color: #17a2b8;
-    border-color: #17a2b8;
-    color: white;
+.facility {
+    text-align: center;
+    margin-bottom: 40px;
 }
+
+.facility i {
+    margin-bottom: 20px;
+    font-size: 55px;
+    line-height: 45px;
+}
+
+/*----------------------------------Buttons */
 
 .class-header .btn {
     background-color: lightgrey;
@@ -293,4 +314,4 @@ footer {
     color: #17a2b8;
 }
 
-/*----------------------------------Media */
+
