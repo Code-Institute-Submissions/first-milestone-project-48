@@ -9,10 +9,11 @@ body {
 .container-wrapper--orange {
     background-color: #e67e22;
     color: white;
+    margin-top: 0;
 }
 
 .hero-container {
-    height: 500px;
+    height: 450px;
     width: 100%;
 
     background: url("../images/run-track2.jpg") no-repeat; 
@@ -20,7 +21,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 
     position: relative;
 }
@@ -113,8 +113,10 @@ header {
 
 .logo {
     background-image: url("../images/gemini-logo.png");
+    background-size: 350px;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 5px;
     min-height: 120px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -132,6 +134,7 @@ header {
 
 #nav {
     margin: 0;
+    float: right;
 }
 
 #nav li {
@@ -194,13 +197,15 @@ header {
 
 .class-header h2 {
     margin-top: 0;
+    margin-bottom: 10px;
     font-family: "Exo", sans-serif;
     text-align: center;
     color: #05056d;
 }
 
-.class-header h5 {
+.class-header h4, h5 {
     margin-top: 0;
+    margin-bottom: 10px;
     font-family: "Exo", sans-serif;
     text-align: left;
     padding-top: 30px;
@@ -230,7 +235,6 @@ footer {
 }
 
 .social-links {
-    margin-top: 10px;
     padding-bottom: 15px;
 }
 
@@ -242,20 +246,22 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #17a2b8;
     background: #05056d;
-    -webkit-background-size: 100%;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
     background: #17a2b8;
+    color: #05056d;
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 0px;
+    margin: 5px;
 }
 
 /*----------------------------------Sections */
@@ -284,7 +290,7 @@ footer {
 
 .content-container {
     padding-top: 35px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
 }
 
 .classes {
