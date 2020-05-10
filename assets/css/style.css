@@ -328,4 +328,28 @@ footer {
     color: #17a2b8;
 }
 
+/*----------------------------------Contact Form */
 
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/*----------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 20px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}

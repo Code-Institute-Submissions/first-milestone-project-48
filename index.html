@@ -273,9 +273,22 @@
             <div class="container class-container content-container">
                 <section class="facilities">
                     <div class="row">
-                        <div class="col-12 class-header">
-                            <h2>Got a General enquiry?</h2>
-                            <h2>Feel free to Contact us here:</h2>
+                        <div class="col-12 contact-heading class-header">
+                            <h2 class="uppercase">Got an Enquiry?</h2>
+                            <h3 class="text-center">Feel free to Contact us:</h3>
+                        </div>
+
+                        <div class="col-12 center-form">
+                            <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                                <textarea rows="5" name="generalenquiry" id="generalenquiry" class="form-control" placeholder="Enquiry description" required></textarea><br>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <input class="btn btn-primary btn-info" type="submit" value="Let us Help you!">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </section>
