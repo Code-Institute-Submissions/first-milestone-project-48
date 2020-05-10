@@ -12,6 +12,13 @@ body {
     margin-top: 0;
 }
 
+.container-wrapper--pink {
+    background-color: rgb(187, 46, 140);
+    color: white;
+    margin-top: 0;
+}
+
+/* All images taking from original photos with permission from Gemini Gymnastic Club*/
 .hero-container {
     height: 450px;
     width: 100%;
@@ -111,6 +118,7 @@ header {
     margin: 0;
 }
 
+/* Logo provided with agreement from the Gemini Gymnastic club*/
 .logo {
     background-image: url("../images/gemini-logo.png");
     background-size: 350px;
@@ -239,11 +247,11 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 7px;
     text-align: center;
     color: #17a2b8;
