@@ -186,7 +186,6 @@ header {
 .hero-heading {
     text-align: center;
     background-color: rgb(167, 101, 145);
-    /*background-color: #e8dcdc;*/
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -316,6 +315,34 @@ footer {
     line-height: 45px;
 }
 
+.cafe-container {
+    height: 600px;
+    width: 100%;
+    opacity: 0.6;
+
+    background: url("../images/coffee-bar.jpg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    position: relative;
+}
+
+.party-container {
+    height: 600px;
+    width: 100%;
+    opacity: 0.6;
+
+    background: url("../images/party-balloons.jpg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
 /*----------------------------------Buttons */
 
 .class-header .btn {
@@ -340,7 +367,9 @@ footer {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 75%;
+    background-color: #fafafa;
+    border-radius: 20px;
 }
 
 /*----------------------------------Media Queries */
@@ -350,6 +379,6 @@ footer {
         padding-top: 20px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 75%;
     }
 }
