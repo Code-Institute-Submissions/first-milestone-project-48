@@ -41,24 +41,69 @@
             </div>
         </div> 
     </header>
-    <section>
-    <!-- Coffee Area Image and Text -->
-        <div class="col-12 cafe-container"> 
-            <p>of cafe bar header opaque with some text over</p>
-        </div>
-    <!-- /.Coffee Area Image and Text -->
 
     <!-- Party Image and Text -->
-        <div class="col-12 party-container">
-            <p>Area for pariy info opaque with details and a form</p>
-        </div>
+        <div class="party-container">
+            <div class="opaque-overlay">&nbsp</div>
+                <div class="row">
+                    <div class="col-12">
+                        <section class="party jumbotron text-center">
+                            <h1 class="jumbotron-header">Celebrate your Birthday's here.</h1>
+                            <hr class="line-divider--large">
+                            <p class="lead">Enjoy an hour of fun for up to 25 children in the gym with qualified coaches,<br>
+                            then have half an hour in the party room to<br>
+                            eat your party food.<br>
+                            <br>
+                            You and the party goers will love it!!<br>
+                            <br></p>
+                            <button class="btn btn-primary btn-info" data-toggle="modal" data-target="#PartyModal">Book Now!</button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        
     <!-- /.Party Image and Text -->
 
-    <!-- Gym details and Image -->
-        <div class="col-12 ">
-            Gym details and image in circle 
-        </div>
-    <!-- /.Gym details and Image -->
+    <!-- Coffee Area Image and Text -->
+        <div class="cafe-container">
+            <div class="opaque-overlay">&nbsp</div>
+                <div class="row">
+                    <div class="col-12">
+                        <section class="cafe jumbotron text-center">
+                            <h1 class="jumbotron-header">Relax and Socialise with us.</h1>
+                            <hr class="line-divider--large">
+                            <p class="lead">Come and enjoy a hot or cold drink and something<br>
+                            delicious to eat in our Cafe area whilst the children train in the gym.<br>
+                            <br>
+                            Or maybe just pop in as you are passing us.<br>
+                            <br>
+                            We would love to see you.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+    <!-- /.Coffee Area Image and Text -->
+
+    <!-- Hire us details and Image -->
+        <div class="hire-us-container">
+            <div class="opaque-overlay">&nbsp</div>
+                <div class="row">
+                    <div class="col-12">
+                        <section class="hire jumbotron text-center">
+                            <h1 class="jumbotron-header">Hire Our Gym Facilities.</h1>
+                            <hr class="line-divider--large">
+                            <p class="lead">We are happy to hire the gym and it's other facilities to<br>
+                            any organisation for compatible activities.<br>
+                            <br>
+                            Come and see our Facilities, or contact us below.<br>
+                            <br></p>
+                            <button class="btn btn-primary btn-info" data-toggle="modal" data-target="#HireUsModal">Hire Us!</button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+    <!-- /.Hire us details and Image -->
+
     <!-- Facility features -->
         <section>
             <div class="container-wrapper container-wrapper--orange">
@@ -109,8 +154,85 @@
                 </div>
             </div> 
         </section> 
-    </section>
+
     <!-- /.Facility features -->
+
+    <!-- Hire Us Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="HireUsModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Hire Gemini Gymnastics!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName">Name*</label>
+                            <input type="name" class="form-control" id="exampleInputName1" placeholder="Name" aria-describedby="nameHelp" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail">Email address*</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleEnquiry">Hire Enquiry*</label>
+                            <textarea rows="5" name="hireEnquiry" id="hireEnquiry" class="form-control" placeholder="Hire Enquiry description" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-info">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Party Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="PartyModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book Your Party!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName">Name*</label>
+                            <input type="name" class="form-control" id="exampleInputName2" placeholder="Name" aria-describedby="nameHelp" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail">Email address*</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" aria-describedby="emailHelp" required>
+                            <small id="emailHelp2" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputDate">Date of Party*</label>
+                            <input type="date" class="form-control" id="exampleInputDate" placeholder="Date" aria-describedby="dateHelp" required>
+                            <small id="dateHelp" class="form-text text-muted">Weekends Only Please.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputNumber">Number of Children*</label>
+                            <input type="number" class="form-control" id="exampleInputNumber" placeholder="Number of Children" aria-describedby="numberHelp" required>
+                            <small id="numberHelp" class="form-text text-muted">Maximum 25 Children.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleEnquiry">Additional Information</label>
+                            <textarea rows="3" name="partyEnquiry" id="partyEnquiry" class="form-control" placeholder="£50 Deposit will be required to confirm your booking"></textarea>
+                            <small id="depositHelp" class="form-text text-muted">We will contact you for the deposit and confirm your booking shortly.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-info">Book Now!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <footer class="container-fluid bg-color-logo-footer">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
@@ -171,6 +293,11 @@
             </div>        
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
 © 2020 AHouston2020

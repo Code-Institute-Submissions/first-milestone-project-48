@@ -23,7 +23,7 @@ body {
     height: 450px;
     width: 100%;
 
-    background: url("../images/run-track2.jpg") no-repeat; 
+    background: url("../images/hire-us-image.jpg") no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -318,13 +318,17 @@ footer {
 .cafe-container {
     height: 600px;
     width: 100%;
-    opacity: 0.6;
 
-    background: url("../images/coffee-bar.jpg") no-repeat; 
+    background: url("../images/coffee-bar.jpg") no-repeat;
+    background-position: bottom left; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     position: relative;
 }
@@ -332,7 +336,6 @@ footer {
 .party-container {
     height: 600px;
     width: 100%;
-    opacity: 0.6;
 
     background: url("../images/party-balloons.jpg") no-repeat; 
     -webkit-background-size: cover;
@@ -340,7 +343,54 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     position: relative;
+}
+
+.hire-us-container {
+    height: 600px;
+    width: 100%;
+
+    background: url("../images/hire-us-image.jpg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px;
+    color: white;
 }
 
 /*----------------------------------Buttons */
