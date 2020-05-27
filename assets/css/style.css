@@ -231,7 +231,15 @@ header {
 .classes-table {
     background-color: #05056d;
     color: #17a2b8;
-    width: 150%;
+    width: 110%;
+    margin-top: 20px;
+}
+
+.classes-table2 {
+    background-color: #05056d;
+    color: #17a2b8;
+    width: 100%;
+    margin-top: 10px;
 }
 
 /*----------------------------------Hover.css */
