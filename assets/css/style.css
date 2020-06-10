@@ -406,6 +406,13 @@ footer {
     background-color: #3498db;
 }
 
+.gallery-container {
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #40d371;
+}
+
 /*---------------------------------- Jumbotron */
 
 .jumbotron {
@@ -450,6 +457,24 @@ footer {
     max-width: 75%;
     background-color: #fafafa;
     border-radius: 20px;
+}
+
+/*----------------------------------Gallery */
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #17a2b8;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 /*----------------------------------Media Queries */
