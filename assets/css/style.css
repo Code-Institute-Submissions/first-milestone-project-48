@@ -408,9 +408,9 @@ footer {
 
 .gallery-container {
     height: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: #40d371;
+    padding-left: 50px;
+    padding-right: 20px;
+    background-color: #494343;
 }
 
 /*---------------------------------- Jumbotron */
@@ -466,10 +466,6 @@ footer {
   border: 1px solid #17a2b8;
   float: left;
   width: 180px;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
 }
 
 .gallery img {
