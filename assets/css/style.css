@@ -407,9 +407,9 @@ footer {
 }
 
 .gallery-container {
-    height: 100%;
+    /* height: 100%;
     padding-left: 50px;
-    padding-right: 20px;
+    padding-right: 20px; */
     background-color: #494343;
 }
 
@@ -461,12 +461,12 @@ footer {
 
 /*----------------------------------Gallery */
 
-.gallery {
+/* .gallery {
   margin: 5px;
   border: 1px solid #17a2b8;
   float: left;
-  width: 180px;
-}
+  width: 100%;
+} */
 
 .gallery img {
   width: 100%;
