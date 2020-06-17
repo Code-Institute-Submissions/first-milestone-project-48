@@ -230,14 +230,14 @@ header {
 
 .classes-table {
     background-color: #05056d;
-    color: #17a2b8;
+    color: #fff;
     width: 110%;
     margin-top: 20px;
 }
 
 .classes-table2 {
     background-color: #05056d;
-    color: #17a2b8;
+    color: #fff;
     width: 90%;
     margin-top: 10px;
 }
@@ -407,9 +407,6 @@ footer {
 }
 
 .gallery-container {
-    /* height: 100%;
-    padding-left: 50px;
-    padding-right: 20px; */
     background-color: #494343;
 }
 
@@ -461,16 +458,10 @@ footer {
 
 /*----------------------------------Gallery */
 
-/* .gallery {
-  margin: 5px;
-  border: 1px solid #17a2b8;
-  float: left;
-  width: 100%;
-} */
-
 .gallery img {
   width: 100%;
   height: auto;
+  margin: 5px;
 }
 
 /*----------------------------------Media Queries */
