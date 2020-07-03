@@ -58,6 +58,10 @@ body {
     background-color: #40d371;
 }
 
+.ui-menu-color-menuicon {
+background-color: #05056d;
+}
+
 /*---------------------------------- Paddings/margins/text */
 
 h1,
@@ -129,27 +133,19 @@ header {
 
 /* Logo provided with agreement from the Gemini Gymnastic club*/
 .logo {
-    background-image: url("../images/gemini-logo.png");
-    background-size: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 5px;
-    min-height: 120px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    height: 50px;
+    max-width: 80%;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-.menucontainer {
+/* .menucontainer {
     font-size: 0;
-}
+} */
 
-#nav {
+/* #nav {
     margin: 0;
     float: right;
 }
@@ -157,7 +153,7 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
-}
+} */
 
 .menuitem {
     height: 120px;
@@ -233,14 +229,17 @@ header {
     color: #fff;
     width: 110%;
     margin-top: 20px;
+    padding: 0;
     overflow-x: scroll;
 }
 
 .classes-table2 {
     background-color: #05056d;
+    width: 100%;
     color: #fff;
     width: 90%;
     margin-top: 10px;
+    padding: 0;
     overflow-x: scroll;
 }
 
