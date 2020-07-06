@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/8c99f10d69.js" crossorigin="anonymous"></script>
@@ -12,69 +11,70 @@
 </head>
 <body>
     <header>
-        <div class="row no-gutters bg-color-logo-footer">
-            <a href="index.html" class="col-sm-4 logo" aria-hidden="true">
-            
-            </a>
-            <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                            </li>   
-                            <li class="col-6 col-sm-3 ui-menu-color-classes list-inline-item menuitem">
-                                <a href="classes.html" class="hvr-sweep-to-bottom"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Classes</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-facilities list-inline-item menuitem">
-                                <a href="facilities.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Facilities</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-gallery list-inline-item menuitem">
-                                <a href="gallery.html" class="hvr-sweep-to-bottom"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
-                            </li>
-                        </ul>
-                    </div>    
-                </div>
+        <nav class="navbar navbar-expand-lg bg-color-logo-footer">
+            <a class="navbar-brand" href="index.html">
+            <img src="assets/images/gemini-logo.png" class="logo" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+        
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item ui-menu-color-home menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-classes menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="classes.html"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Classes</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-facilities menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="facilities.html"><i class="fa fa-users" aria-hidden="true"></i><span>Facilities</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-contact menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="contact.html"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-gallery menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
+                    </li>
+                </ul> 
             </div>
-        </div> 
+        </nav>
     </header>
-    <section>
-        <div class="col-12 classes-container content-container classes">
+    <section class="container-fluid class-header classes-container">
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="col">
                     <h2>Our Classes & Schedules</h2>
                     <br>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="class-header inline-block">
                     <img src="assets/images/dice-image.jpg" class="rounded-circle mr-5" alt="Two play dice" height="300" width="300">
-                    <div class="inline-block uppercase class-header">
-                        <table class="table-responsive classes-table">
-                            <tr>
-                                <th>Class:</th>
-                                    <td>Fun4Baby</td>
-                            </tr> 
-                            <tr>       
-                                <th>When:</th>
-                                    <td>Tuesdays</td>
-                            </tr>
-                            <tr>
-                                <th>Times:</th>
-                                    <td>9:30 - 10:10am</td>
-                            </tr>
-                            <tr>
-                                <th>Age Group:</th>
-                                    <td>(Up to 18 months old with Parent)</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
-                    </div>
-                    <div>
+                </div>
+            
+                <div class="inline-block uppercase">
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                                <td>Fun4Baby</td>
+                        </tr> 
+                        <tr>       
+                            <th>When:</th>
+                                <td>Tuesdays</td>
+                        </tr>
+                        <tr>
+                            <th>Times:</th>
+                                <td>9:30 - 10:10am</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group:</th>
+                                <td>(Up to 18 months old with Parent)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
+                </div>
+
+                <div>
                     <h4>Fun4Baby</h4> 
                         <p>Fun4Baby sessions aim to provide a framework for a baby's natural physical and psychological development. 
                         By providing regular exercise through the medium of play, baby gymnastics guides a baby's body towards a healthy
@@ -98,33 +98,35 @@
                         </p>
                         <br>
                         <hr class="line-divider--classes">
-                    </div>
                 </div>
-            </div> 
+            </div>
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="class-header inline-block">
                     <img src="assets/images/pre-school_10.jpg" class="rounded-circle mr-5" alt="kids play parachute" height="300" width="300">
-                    <div class="inline-block uppercase class-header">
-                        <table class="table-responsive classes-table">
-                            <tr>
-                                <th>Class:</th>
-                                    <td>Pre-School - Seals, Sharks & Dolphins</td>
-                            </tr>
-                                <th>When:</th>
-                                    <td>Tues / Thurs / Fri</td>
-                            <tr>
-                                <th>Times:</th>
-                                    <td>See table below</td>
-                            </tr>
-                            <tr>
-                                <th>Age Group:</th>
-                                    <td>(1 1/2 to School age, See table below)</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
-                    </div>
-                    <div>
+                </div>
+
+                <div class="inline-block uppercase">
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                                <td>Pre-School - Seals, Sharks & Dolphins</td>
+                        </tr>
+                            <th>When:</th>
+                                <td>Tues / Thurs / Fri</td>
+                        <tr>
+                            <th>Times:</th>
+                                <td>See table below</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group:</th>
+                                <td>(1 1/2 to School age, See table below)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
+                </div>
+
+                <div>
                     <h4>Pre-School</h4> 
                         <p>Pre-School sessions aim to provide children with an environment to learn and have fun - it is our aim to make 
                         it an enjoyable experience for all. Within a safe, structured and supervised environment and through the use of 
@@ -139,194 +141,204 @@
                         - Provide challenges to enable them to achieve and improve<br>
                         - Encourage participation in our award scheme<br>
                         </p>
-                        <table class="table-responsive classes-table2">
-                            <tr>
-                                <th>Class:</th>
-                                <th>When:</th>
-                                <th>Times:</th>
-                                <th>Age Group:</th>
-                            </tr>
-                            <tr>
-                                <td>Seals</td>
-                                <td>Tuesdays</td>
-                                <td>10:30 - 11:15am</td>
-                                <td>(1 1/2 to 2 1/2 years old with Parent)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Thursdays</td>
-                                <td>11:30 - 12:15pm</td>
-                                <td>(1 1/2 to 2 1/2 years old with Parent)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Fridays</td>
-                                <td>10:30 - 11:15am</td>
-                                <td>(1 1/2 to 2 1/2 years old with Parent)</td>
-                            </tr>
-                            <tr>
-                                <td>Sharks</td>
-                                <td>Tuesdays</td>
-                                <td>11:30 - 12:15pm</td>
-                                <td>(2 1/2 to 3 1/2 years old with Parent)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Fridays</td>
-                                <td>11:30 - 12:15pm</td>
-                                <td>(2 1/2 to 3 1/2 years old with Parent)</td>
-                            </tr>
-                            <tr>
-                                <td>Dolphins</td>
-                                <td>Tuesdays</td>
-                                <td>12:30 - 13:15pm</td>
-                                <td>(3 1/2 years old to School age no Parent)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Thursdays</td>
-                                <td>12:30 - 13:15pm</td>
-                                <td>(3 1/2 years old to School age no Parent)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Fridays</td>
-                                <td>12:30 - 13:15pm</td>
-                                <td>(3 1/2 years old to School age no Parent)</td>
-                            </tr>
-                        </table>
+                </div>
+
+                <div>
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                            <th>When:</th>
+                            <th>Times:</th>
+                            <th>Age Group:</th>
+                        </tr>
+                        <tr>
+                            <td>Seals</td>
+                            <td>Tuesdays</td>
+                            <td>10:30 - 11:15am</td>
+                            <td>(1 1/2 to 2 1/2 years old with Parent)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Thursdays</td>
+                            <td>11:30 - 12:15pm</td>
+                            <td>(1 1/2 to 2 1/2 years old with Parent)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Fridays</td>
+                            <td>10:30 - 11:15am</td>
+                            <td>(1 1/2 to 2 1/2 years old with Parent)</td>
+                        </tr>
+                        <tr>
+                            <td>Sharks</td>
+                            <td>Tuesdays</td>
+                            <td>11:30 - 12:15pm</td>
+                            <td>(2 1/2 to 3 1/2 years old with Parent)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Fridays</td>
+                            <td>11:30 - 12:15pm</td>
+                            <td>(2 1/2 to 3 1/2 years old with Parent)</td>
+                        </tr>
+                        <tr>
+                            <td>Dolphins</td>
+                            <td>Tuesdays</td>
+                            <td>12:30 - 13:15pm</td>
+                            <td>(3 1/2 years old to School age no Parent)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Thursdays</td>
+                            <td>12:30 - 13:15pm</td>
+                            <td>(3 1/2 years old to School age no Parent)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Fridays</td>
+                            <td>12:30 - 13:15pm</td>
+                            <td>(3 1/2 years old to School age no Parent)</td>
+                        </tr>
+                    </table>
                         <br>
-                        <hr class="line-divider--classes">
-                    </div>
                 </div>
             </div>
+                        <hr class="line-divider--classes">
+
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="class-header inline-block">
                     <img src="assets/images/run-track3.jpg" class="rounded-circle mr-5" alt="gymnastic running track" height="300" width="300">
-                    <div class="inline-block uppercase class-header">
-                        <table class="table-responsive classes-table">
-                            <tr>
-                                <th>Class:</th>
-                                    <td>After School - Aquamarine, Emerald, Sapphire, Ruby</td>
-                            </tr>
-                                <th>When:</th>
-                                    <td>Classes all week</td>
-                            <tr>
-                                <th>Times:</th>
-                                    <td>See table below</td>
-                            </tr>
-                            <tr>
-                                <th>Age Group:</th>
-                                    <td>(4 1/2 year old to Adult age)</td>
-                            </tr>
-                        </table>
+                </div>
+
+                <div class="inline-block uppercase">
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                                <td>After School - Aquamarine, Emerald, Sapphire, Ruby</td>
+                        </tr>
+                            <th>When:</th>
+                                <td>Classes all week</td>
+                        <tr>
+                            <th>Times:</th>
+                                <td>See table below</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group:</th>
+                                <td>(4 1/2 year old to Adult age)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
+                </div>
+
+                <div>
+                    <h4>After School</h4> 
+                    <p>We offer structured coaching in recreational, artistic and sports acro gymnastics in a safe and fun environment.<br>
+                    <br>
+                    Within these sessions all children will work through the British Gymnastics Award Scheme and we aim 
+                    to encourage all members, whatever their level of ability and experience, to fulfil their 
+                    potential in an enjoyable but disciplined way.<br>
+                    <br>
+                    Should any gymnast show potential within any of our classes, they may be invited to attend a trial into one 
+                    of our competition squads.<br>
+                    <br>
+                    All of our coaches are British Gymnastics trained and qualified<br>
+                    </p>
+            
+                    <p> 
+                    <strong>Please make sure...your child is in the correct class for their school year. Thank you</strong><br>
+                    </p>
+                </div>
+
+                <div> 
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                            <th>When:</th>
+                            <th>Times:</th>
+                            <th>Age Group:</th>
+                        </tr>
+                        <tr>
+                            <td>Aquamarine</td>
+                            <td>Mon - Fri </td>
+                            <td>16:00 - 17:00pm</td>
+                            <td>(Rec & Year 1)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Saturdays</td>
+                            <td>09:00 - 10:00am</td>
+                            <td>(Rec & Year 1)</td>
+                        </tr>
+                        <tr>
+                            <td>Emerald</td>
+                            <td>Mon - Fri </td>
+                            <td>17:00 - 18:00pm</td>
+                            <td>(Year 2 & 3)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Saturdays</td>
+                            <td>10:00 - 11:00am</td>
+                            <td>(Year 2 & 3)</td>
+                        </tr>
+                        <tr>
+                            <td>Sapphire</td>
+                            <td>Mon - Thurs </td>
+                            <td>18:00 - 19:00pm</td>
+                            <td>(Years 4 & 5)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Saturdays</td>
+                            <td>11:00 - 12:00pm</td>
+                            <td>(Years 4 & 5)</td>
+                        </tr>
+                        <tr>
+                            <td>Ruby</td>
+                            <td>Mon - Thurs </td>
+                            <td>19:00 - 20:00pm</td>
+                            <td>(Year 6+)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Saturdays</td>
+                            <td>11:00 - 12:00pm</td>
+                            <td>(Year 6+)</td>
+                        </tr>
+                    </table>
                         <br>
-                        <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
-                    </div>
-                    <div>
-                        <h4>After School</h4> 
-                        <p>We offer structured coaching in recreational, artistic and sports acro gymnastics in a safe and fun environment.<br>
-                        <br>
-                        Within these sessions all children will work through the British Gymnastics Award Scheme and we aim 
-                        to encourage all members, whatever their level of ability and experience, to fulfil their 
-                        potential in an enjoyable but disciplined way.<br>
-                        <br>
-                        Should any gymnast show potential within any of our classes, they may be invited to attend a trial into one 
-                        of our competition squads.<br>
-                        <br>
-                        All of our coaches are British Gymnastics trained and qualified<br>
-                        </p>
-                
-                        <p> 
-                        <strong>Please make sure...your child is in the correct class for their school year. Thank you</strong><br>
-                        </p>
-                    </div>
-                    <div> 
-                        <table class="table table-dark table-responsive classes-table2">
-                            <tr>
-                                <th>Class:</th>
-                                <th>When:</th>
-                                <th>Times:</th>
-                                <th>Age Group:</th>
-                            </tr>
-                            <tr>
-                                <td>Aquamarine</td>
-                                <td>Mon - Fri </td>
-                                <td>16:00 - 17:00pm</td>
-                                <td>(Reception & Year 1)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Saturdays</td>
-                                <td>09:00 - 10:00am</td>
-                                <td>(Reception & Year 1)</td>
-                            </tr>
-                            <tr>
-                                <td>Emerald</td>
-                                <td>Mon - Fri </td>
-                                <td>17:00 - 18:00pm</td>
-                                <td>(Year 2 & 3)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Saturdays</td>
-                                <td>10:00 - 11:00am</td>
-                                <td>(Year 2 & 3)</td>
-                            </tr>
-                            <tr>
-                                <td>Sapphire</td>
-                                <td>Mon - Thurs </td>
-                                <td>18:00 - 19:00pm</td>
-                                <td>(Years 4 & 5)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Saturdays</td>
-                                <td>11:00 - 12:00pm</td>
-                                <td>(Years 4 & 5)</td>
-                            </tr>
-                            <tr>
-                                <td>Ruby</td>
-                                <td>Mon - Thurs </td>
-                                <td>19:00 - 20:00pm</td>
-                                <td>(Year 6+)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Saturdays</td>
-                                <td>11:00 - 12:00pm</td>
-                                <td>(Year 6+)</td>
-                            </tr>
-                        </table>
-                    </div>
-                        <br>
-                        <hr class="line-divider--classes">
                 </div>
             </div>
+                    <hr class="line-divider--classes">
+
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="class-header inline-block">
                     <img src="assets/images/disability_02.jpg" class="rounded-circle mr-5" alt="Person in a play hoop" height="300" width="300">
-                    <div class="inline-block uppercase class-header">
-                        <table class="table-responsive classes-table">
-                            <tr>
-                                <th>Class:</th>
-                                    <td>Disability</td>
-                            </tr>
-                                <th>When:</th>
-                                    <td>Fridays</td>
-                            <tr>
-                                <th>Times:</th>
-                                    <td>14:30 - 15:15pm & 15:15 - 16:00pm</td>
-                            </tr>
-                            <tr>
-                                <th>Age Group:</th>
-                                    <td>(All ages)</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
-                    </div>
-                    <div>
+                </div>    
+                    
+                <div class="inline-block uppercase">
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                                <td>Disability</td>
+                        </tr>
+                            <th>When:</th>
+                                <td>Fridays</td>
+                        <tr>
+                            <th>Times:</th>
+                                <td>14:30 - 15:15pm & 15:15 - 16:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group:</th>
+                                <td>(All ages)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
+                </div>
+
+                <div>
                     <h4>Disability</h4> 
                         <p>We have specific disability sessions during the times shown above for members with additional 
                         needs and various disabilities. However, we are also happy for members to be included within our mainstream sessions should you prefer.<br>
@@ -338,35 +350,38 @@
                         We hold taster sessions for members of the public with disabilities, so come and join us and try it for yourself.
                         </p>
                         <br>
-                        <hr class="line-divider--classes">
-                    </div>
                 </div>
             </div>
+                    <hr class="line-divider--classes">
+
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="class-header inline-block">
                     <img src="assets/images/trampolining-image.jpg" class="rounded-circle mr-5" alt="Trampolines" height="300" width="300">
-                    <div class="inline-block uppercase class-header">
-                        <table class="table-responsive classes-table">
-                            <tr>
-                                <th>Class:</th>
-                                    <td>trampolining</td>
-                            </tr>
-                                <th>When:</th>
-                                    <td>Mon / Fri / Sun</td>
-                            <tr>
-                                <th>Times:</th>
-                                    <td>See table below</td>
-                            </tr>
-                            <tr>
-                                <th>Age Group:</th>
-                                    <td>(4 year old to Adults)</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
-                    </div>
-                    <div>
-                    <h4>Trampolining</h4> 
+                </div>    
+                    
+                <div class="inline-block uppercase">
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                                <td>trampolining / Stunt Cheer</td>
+                        </tr>
+                            <th>When:</th>
+                                <td>Mon / Fri / Sun</td>
+                        <tr>
+                            <th>Times:</th>
+                                <td>See table below</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group:</th>
+                                <td>(4 year old to Adults)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
+                </div>
+
+                <div>
+                    <h4>Trampolining / Stunt Cheer</h4> 
                         <p>We offer structured coaching in trampolining in a safe and fun environment. In these sessions children 
                         will work through the British Gymnastics Profiency Award Scheme and we encourage all members, whatever their 
                         level of ability and experience.
@@ -383,92 +398,97 @@
                         <p>We also run stunt cheer classes on the trampolines for members who have gained the required skills 
                         or for the more adventurous adults within us.
                         </p>
+                </div>
 
-                        <table class="table-responsive classes-table2">
-                            <tr>
-                                <th>Class:</th>
-                                <th>When:</th>
-                                <th>Times:</th>
-                                <th>Age Group:</th>
-                            </tr>
-                            <tr>
-                                <td>Trampolining</td>
-                                <td>Mondays</td>
-                                <td>16:00 - 17:00pm</td>
-                                <td>(4 - 6 year olds)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>17:00 - 18:00pm</td>
-                                <td>(7+ year olds)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>18:00 - 19:00pm</td>
-                                <td>(9+ year olds)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Fridays</td>
-                                <td>16:00 - 17:00pm</td>
-                                <td>(4 - 6 year olds)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>17:00 - 18:00pm</td>
-                                <td>(7+ year olds)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>20:00 - 21:00pm</td>
-                                <td>(Adults only)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Sundays</td>
-                                <td>15:30 - 16:30pm</td>
-                                <td>(7+ year olds)</td>
-                            </tr>
-                            <tr>
-                                <td>Stunt cheer</td>
-                                <td>Sundays</td>
-                                <td>16:30 - 18:30pm</td>
-                                <td>(7+ year olds & Adults)</td>
-                            </tr>
-                        </table>
+                <div>
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                            <th>When:</th>
+                            <th>Times:</th>
+                            <th>Age Group:</th>
+                        </tr>
+                        <tr>
+                            <td>Trampolining</td>
+                            <td>Mondays</td>
+                            <td>16:00 - 17:00pm</td>
+                            <td>(4 - 6 year olds)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>17:00 - 18:00pm</td>
+                            <td>(7+ year olds)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>18:00 - 19:00pm</td>
+                            <td>(9+ year olds)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Fridays</td>
+                            <td>16:00 - 17:00pm</td>
+                            <td>(4 - 6 year olds)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>17:00 - 18:00pm</td>
+                            <td>(7+ year olds)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>20:00 - 21:00pm</td>
+                            <td>(Adults only)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Sundays</td>
+                            <td>15:30 - 16:30pm</td>
+                            <td>(7+ year olds)</td>
+                        </tr>
+                        <tr>
+                            <td>Stunt cheer</td>
+                            <td>Sundays</td>
+                            <td>16:30 - 18:30pm</td>
+                            <td>(7+ year olds & Adults)</td>
+                        </tr>
+                    </table>
                         <br>
-                        <hr class="line-divider--classes">
-                    </div>
                 </div>
             </div>
+                    <hr class="line-divider--classes">
+
             <div class="row">
-                <div class="col-12 class-header">
+                <div class="class-header inline-block">
                     <img src="assets/images/free-g-block.jpg" class="rounded-circle mr-5" alt="blocks for jumping over" height="300" width="300">
-                    <div class="inline-block uppercase class-header">
-                        <table class="table classes-table">
-                            <tr>
-                                <th>Class:</th>
-                                    <td>Free G</td>
-                            </tr>
-                                <th>When:</th>
-                                    <td>Mondays</td>
-                            <tr>
-                                <th>Times:</th>
-                                    <td>See table below</td>
-                            </tr>
-                            <tr>
-                                <th>Age Group:</th>
-                                    <td>(School year 2 to Adults)</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
-                    </div>
-                    <div>
+                </div>
+                    
+                <div class="inline-block uppercase">
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                                <td>Free G</td>
+                        </tr>
+                            <th>When:</th>
+                                <td>Mondays</td>
+                        <tr>
+                            <th>Times:</th>
+                                <td>See table below</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group:</th>
+                                <td>(School year 2 to Adults)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><button class="btn btn-primary btn-info" data-toggle="modal" data-target="">Register Now!</button></p>  
+                </div>
+
+                <div>
                     <h4>Free G</h4> 
                         <p>Free G is a fantastic British Gymnastics activity that fuses traditional gymnastic and acrobatic tricks, 
                         with kicks and leaps made famous through martial arts and brought to worldwide attention by festival 
@@ -479,40 +499,41 @@
                         and apparatus enabling confidence in attempting new tricks and improving your skills whilst having fun with your 
                         new found friends. 
                         </p>
+                </div>
 
-                        <table class="table-responsive classes-table2">
-                            <tr>
-                                <th>Class:</th>
-                                <th>When:</th>
-                                <th>Times:</th>
-                                <th>Age Group:</th>
-                            </tr>
-                            <tr>
-                                <td>Free G</td>
-                                <td>Mondays</td>
-                                <td>18:00 - 19:00pm</td>
-                                <td>(School year 2 - 4)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>18:30 - 19:30pm</td>
-                                <td>(School year 5+)</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>19:00 - 20:00pm</td>
-                                <td>(Adults & Invitational only)</td>
-                            </tr>
-                        </table>
+                <div>
+                    <table class="table table-dark table-responsive classes-table">
+                        <tr>
+                            <th>Class:</th>
+                            <th>When:</th>
+                            <th>Times:</th>
+                            <th>Age Group:</th>
+                        </tr>
+                        <tr>
+                            <td>Free G</td>
+                            <td>Mondays</td>
+                            <td>18:00 - 19:00pm</td>
+                            <td>(School year 2 - 4)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>18:30 - 19:30pm</td>
+                            <td>(School year 5+)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>19:00 - 20:00pm</td>
+                            <td>(Adults & Invitational only)</td>
+                        </tr>
+                    </table>
                         <br>
-                        <hr class="line-divider--classes">
-                    </div>
                 </div>
             </div>
-        </div>     
+                    
     </section>
+
     <footer class="container-fluid bg-color-logo-footer">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
@@ -574,5 +595,8 @@
             </div>        
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

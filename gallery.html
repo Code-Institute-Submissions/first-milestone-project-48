@@ -3,45 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <script src="https://kit.fontawesome.com/8c99f10d69.js" crossorigin="anonymous"></script>
     <title>Gemini Gymnastic Club</title>
 </head>
 <body>
     <header>
-        <div class="row no-gutters bg-color-logo-footer">
-            <a href="index.html" class="col-sm-4 logo" aria-hidden="true">
-            
-            </a>
-            <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                            </li>   
-                            <li class="col-6 col-sm-3 ui-menu-color-classes list-inline-item menuitem">
-                                <a href="classes.html" class="hvr-sweep-to-bottom"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Classes</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-facilities list-inline-item menuitem">
-                                <a href="facilities.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Facilities</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-gallery list-inline-item menuitem">
-                                <a href="gallery.html" class="hvr-sweep-to-bottom"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
-                            </li>
-                        </ul>
-                    </div>    
-                </div>
+        <nav class="navbar navbar-expand-lg bg-color-logo-footer">
+            <a class="navbar-brand" href="index.html">
+            <img src="assets/images/gemini-logo.png" class="logo" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+        
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item ui-menu-color-home menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-classes menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="classes.html"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Classes</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-facilities menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="facilities.html"><i class="fa fa-users" aria-hidden="true"></i><span>Facilities</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-contact menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="contact.html"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-gallery menuitem">
+                        <a class="nav-link hvr-sweep-to-bottom" href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
+                    </li>
+                </ul> 
             </div>
-        </div> 
+        </nav>
     </header>
+    
     <section class="container-fluid gallery gallery-container">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-4">
@@ -192,7 +191,9 @@
             </div>        
         </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -135,25 +135,16 @@ header {
 .logo {
     height: 50px;
     max-width: 80%;
+    float: left;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-/* .menucontainer {
-    font-size: 0;
-} */
-
-/* #nav {
-    margin: 0;
-    float: right;
+.navbar-toggler-icon {
+    background-color: #05056d;
 }
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-} */
 
 .menuitem {
     height: 120px;
@@ -228,17 +219,7 @@ header {
     background-color: #05056d;
     color: #fff;
     width: 110%;
-    margin-top: 20px;
-    padding: 0;
-    overflow-x: scroll;
-}
-
-.classes-table2 {
-    background-color: #05056d;
-    width: 100%;
-    color: #fff;
-    width: 90%;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0;
     overflow-x: scroll;
 }
@@ -322,10 +303,6 @@ footer {
 .content-container {
     padding-top: 35px;
     padding-bottom: 30px;
-}
-
-.classes {
-    margin-bottom: 5px;
 }
 
 .facility {
