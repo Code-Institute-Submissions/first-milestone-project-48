@@ -134,7 +134,7 @@ header {
 /* Logo provided with agreement from the Gemini Gymnastic club*/
 .logo {
     height: 50px;
-    max-width: 80%;
+    max-width: 85%;
     float: left;
 }
 
@@ -382,6 +382,11 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     background-color: #3498db;
+}
+
+.contact-container {
+    background-color: rgb(167, 101, 145);
+    padding: 20px 20px 0 60px;
 }
 
 .gallery-container {
