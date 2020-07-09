@@ -28,7 +28,7 @@ Discussions progressed into what they wanted to achieve and how my project could
 
 We worked collaboratively on generating the user stories below to establish the key requirements of the project and how the site could achieve their goals with my current 
 level of skillset.  We prioritised the functionality making sure it provided a clear, informative and structured site which could be progressed and enhanced in the future
-but still achieved the result tehy wanted immediately.
+but still achieved the result they wanted immediately.
 
 Wireframe diagrams were hand drawn to establish how the site would flow, the pages involved and the content required for each to achieve the key areas. These are provided
 below also.
@@ -161,36 +161,35 @@ useful form for describing your testing process is via scenarios, such as:
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**Home Page tests**
+**Menu Navigation tests**
 menu bar hover and selection
+logo to home page from other pages
+mobile view changes menu to dropdown function
+
+**Newsletter and Social Media tests**
+newsletter form with and without mandatory fields entered
+newsletter submit button hover and send functions
+social media links hover 
+social media links opening login page in new tab
+
+**Home Page tests**
+
 read more buttons hover
 read more button click takes you to classes page in desktop and mobile
 form functions with and without mandatory fields entered
 form submit button hover and send functions
-newsletter form with and without mandatory fields entered
-newsletter submit button hover and send functions
-social media links hover 
-social media links opening login page in new tab
-mobile view changes menu to dropdown function
 mobile view removes thunbnail pictures from Our classes section
 mobile view displays content correctly
 
 **Classes Page tests**
-logo to home page
-menu bar hover and selection
+
 Register now button hover
 Confirm Register now button does not respond (future feature but provided for visual representation)
-newsletter form with and without mandatory fields entered
-newsletter submit button hover and send functions
-social media links hover 
-social media links opening login page in new tab
-mobile view changes menu to dropdown function
 mobile view removes thunbnail pictures from Our classes section
 mobile view displays table content clearly
 
 **Facilities Page tests**
-logo to home page
-menu bar hover and selection
+
 Hire our gym button opens pop up form
 form functions with and without mandatory fields entered
 form submit button hover and send functions
@@ -199,39 +198,22 @@ Birthday book now button opens pop up form
 form functions with and without mandatory fields entered
 form submit button hover and send functions
 clicking outside form auto removes form
-newsletter form with and without mandatory fields entered
-newsletter submit button hover and send functions
-social media links hover 
-social media links opening login page in new tab
-mobile view changes menu to dropdown function
 mobile view displays table content clearly and forms work
 
 **Contact Page tests**
-logo to home page
-menu bar hover and selection
+
 form functions with and without mandatory fields entered
 form submit button hover and send functions
 google map responds and opens in new tab correctly
-newsletter form with and without mandatory fields entered
-newsletter submit button hover and send functions
-social media links hover 
-social media links opening login page in new tab
-mobile view changes menu to dropdown function
 mobile view displays table content clearly and forms work
 
 **Gallery Page tests**
-logo to home page
-menu bar hover and selection
+
 click any picture to display image with caption
 click arrows left and right for next photo
 select thumbnail button to show all photos
 select slideshow to automatically scroll photos
 Close display to return to gallery page
-newsletter form with and without mandatory fields entered
-newsletter submit button hover and send functions
-social media links hover 
-social media links opening login page in new tab
-mobile view changes menu to dropdown function
 mobile view displays gallery content clearly and functions work
 
 ## Deployment (To do)
@@ -240,7 +222,6 @@ This section should describe the process you went through to deploy the project 
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
-- Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
 
@@ -249,8 +230,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text used has been provided or collaboratively worked on during the development of the site with the club owners
-- The class schedules and timings reflect existing classes being run
+- The text used has been provided by the club owners or collaboratively worked on during the development of the site with the club owners
+- The class schedules and timings reflect existing classes being run currently 
 
 ### Media
 - The gymnastic club, apparatus and gallery photos used in this site were obtained or taken with permission from the clubs owners
