@@ -146,68 +146,159 @@ The following Technologies and languages were used to construct this project. I 
 
 ## Testing (To do)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
+The following tests have been conducted with and by the club owners manually to confirm the functionality and experience of the site meets their expectations.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly 
-useful form for describing your testing process is via scenarios, such as:
+All functionality and navigation aspects have been tested.  This has also been conducted on mobile devices and where certain features were expected to 
+display differently, these have been captured below for completeness. 
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+The Menu Navigation, Newsletter and Social Media feature tests were completed on each page of the site and on differing screen sizes to confirm successful functionality.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Other specific feature tests on each page have been captured separately within their own section.
 
-**Menu Navigation tests**
-menu bar hover and selection
-logo to home page from other pages
-mobile view changes menu to dropdown function
+The club owners were very happy with the results and confirmed it would achieve their goals.
 
-**Newsletter and Social Media tests**
-newsletter form with and without mandatory fields entered
-newsletter submit button hover and send functions
-social media links hover 
-social media links opening login page in new tab
+### Menu and Logo Navigation tests
 
-**Home Page tests**
+1. **Menu box hover color change feature**
+    1. Go to the "Home" page
+    2. Move the mouse over the "Home" menu box to see the darker hover shadow appear from top to bottom
+    3. Move the mouse off the "Home" menu box to see the darker hover shadow disappear from bottom to top
+    4. Repeat steps on "Classes", "Facilities", "Contact" and "Gallery" menu boxes
 
-read more buttons hover
-read more button click takes you to classes page in desktop and mobile
-form functions with and without mandatory fields entered
-form submit button hover and send functions
-mobile view removes thunbnail pictures from Our classes section
-mobile view displays content correctly
+2. **Menu and Logo Navigations**
+    1. Go to the "Home" page
+    2. Select and click the "Classes" menu box to arrive at the "Classes" page
+    3. Select and click the "Home" menu box to return to the "Home" page
+    4. Repeat step 2 and select and click the "Gemini Gym" Logo to return to the "Home" page
+    5. Repeat step 2 and select and click the browser back arrow to return to the "Home" page (tested only to make sure nothing breaks)
+    6. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
+    7. Repeat steps 3 to 6 from each page to arrive where selected
 
-**Classes Page tests**
+3. **Mobile and Smaller screen sizes**
+    1. Go to the "Home" page
+    2. Make the screen size smaller and see the Logo and menu boxes change to Logo and dropdown icon function
+    3. Click the dropdown icon and display the menu boxes
+    4. Select and click the "Classes" menu box to arrive at the "Classes" page
+    5. Click the dropdown icon and display the menu boxes and select "Home" menu box to return to the "Home" page
+    6. Repeat step 3 and 4 select and click the "Gemini Gym" Logo to return to the "Home" page
+    7. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
+    8. Repeat steps 3 to 6 from each page to arrive where selected
+    9. Make the screen size mobile view and see the Logo and dropdown icon function remain in view
+    10. Repeat steps 3 to 8 from each page for same results
 
-Register now button hover
-Confirm Register now button does not respond (future feature but provided for visual representation)
-mobile view removes thunbnail pictures from Our classes section
-mobile view displays table content clearly
+### Newsletter and Social Media tests
 
-**Facilities Page tests**
+1. **Newsletter form with and without mandatory field entered**
+    1. Go to the "Home" page
+    2. Scroll to footer of the page and move mouse over Submit button for hover colour to darken the button
+    3. Try the Submit button with no email address added to verify that an error message about the required field appears
+    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    5. Try to submit the form with a valid email address and verify that its successful and returns you to the top of the page
 
-Hire our gym button opens pop up form
-form functions with and without mandatory fields entered
-form submit button hover and send functions
-clicking outside form auto removes form
-Birthday book now button opens pop up form
-form functions with and without mandatory fields entered
-form submit button hover and send functions
-clicking outside form auto removes form
-mobile view displays table content clearly and forms work
+2. **Mobile and Smaller screen sizes**
+    1. Go to the "Home" page
+    2. Make the screen size smaller and verify responsiveness
+    3. Scroll to footer of the page and move mouse over Submit button for hover colour to darken the button
+    4. Try the Submit button with no email address added to verify that an error message about the required field appears
+    5. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    6. Try to submit the form with a valid email address and verify that its successful and returns you to the top of the page 
+    7. Make the screen Mobile view and verify responsiveness
+    8. Repeat steps 3 to 6 from each page for same results 
 
-**Contact Page tests**
+3. **Social Media link and hover color change features**
+    1. Go to the "Home" page
+    2. Scroll to footer of the page and move mouse over Social Media link button for hover color to invert color scheme on the button
+    3. Move the mouse off the Social Media link button to see the color scheme return to normal
+    4. Click each Social Media link to verify that the Social Media logon page opens in a new browser page
+    5. Repeat steps 2 to 4 on "Classes", "Facilities", "Contact" and "Gallery" pages for same results
+    6. Repeat steps 1 to 5 on Smaller screen sizes for same results and verify responsiveness
+    7. Repeat steps 1 to 5 on Mobile view for same results
+
+### Home Page tests
+
+1. **Read More buttons hover and Action Features**
+    1. Go to the "Home" page
+    2. Scroll down to "Our Classes" section and move mouse over Read More button for hover color scheme on the button to change
+    3. Repeat step 2 on all other Read More buttons for same results
+    4. Click the Read More button to verify it takes you to the "Classes" page
+    5. Return to "Home" page
+    6. Repeat steps 4 and 5 on all other Read More buttons for same results
+    7. Repeat steps 1 to 6 on Smaller screen sizes for same results and verify responsiveness
+    8. Repeat steps 1 to 6 on Mobile view for same results
+
+2. **Enquiry Form function with and without mandatory fields entered**
+    1. Go to the "Home" page
+    2. Scroll down to the Enquiry form section of the page
+    3. Try the Let us Help you button with no field details added to verify that an error message about the required field appears
+    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    5. Try to submit the form with no phone number and verify that a relevant error message appears
+    6. Try to submit the form with no enquiry description and verify that a relevant error message appears
+    7. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
+    8. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
+    9. Repeat steps 1 to 7 on Mobile view for same results
+
+3. **Mobile only view removes thunbnail pictures**
+    1. Make the screen Mobile view
+    2. Go to the "Home" page
+    3. Scroll down to "Our Classes" section and verify that thumbnail pictures are removed from view
+    4. Verify all content displays correctly
+
+### Classes Page tests
+
+1. **Register now button hover feature**
+    1. Go to the "Classes" page
+    2. Scroll down and move mouse over Register Now button for hover color scheme on the button to change
+    3. Repeat step 2 on all other Register Now buttons for same results
+    4. Click the Register Now button to verify it does not respond (future feature but provided for visual representation)
+    5. Repeat steps 1 to 4 on Smaller screen sizes for same results
+    6. Repeat steps 1 to 4 on Mobile view for same results and verify responsiveness
+    7. Verify tables are responsive to Smaller screen and Mobile size changes
+
+2. **Mobile only view removes thunbnail pictures**
+    1. Make the screen Mobile view
+    2. Go to the "Classes" page
+    3. Scroll down to verify that thumbnail pictures are removed from view
+    4. Verify all content displays correctly
+
+### Facilities Page tests
+
+1. **Hire our Gym Facilities form**
+    1. Go to the "Facilities" page
+    2. Scroll down and move mouse over Hire Us button for hover color scheme on the button to change
+    3. Click the Hire Us button to verify it opens the pop up form
+    4. Click outside of the form to verify form disappears and you remain on the "Facilities" page
+    5. Repeat step 3
+    6. Try the Hire Us button with no field details added to verify that an error message about the required field appears
+    7. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    8. Try to submit the form with no enquiry description and verify that a relevant error message appears
+    9. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
+    10. Repeat steps 1 to 9 on Smaller screen sizes for same results and verify responsiveness
+    11. Repeat steps 1 to 9 on Mobile view for same results and verify responsiveness
+
+2. **Book a Birthday form**
+    1. Go to the "Facilities" page
+    2. Scroll down and move mouse over Book Now button for hover color scheme on the button to change
+    3. Click the Book Now button to verify it opens the pop up form
+    4. Click outside of the form to verify form disappears and you remain on the "Facilities" page
+    5. Repeat step 3
+    6. Try the Book Now button with no field details added to verify that an error message about the required field appears
+    7. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    8. Try to submit the form with no date entered and verify that a relevant error message appears
+    9. Try to click the calendar icon and select a date to verify that the date populates in the field correctly
+    10. Try to submit the form with no number of children selected and verify that a relevant error message appears
+    11. Try to use the up arrow on number of children field and verify it wont exceed maximum number of 25
+    12. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
+    13. Repeat steps 1 to 12 on Smaller screen sizes for same results and verify responsiveness
+    14. Repeat steps 1 to 12 on Mobile view for same results and verify responsiveness
+
+### Contact Page tests
 
 form functions with and without mandatory fields entered
 form submit button hover and send functions
 google map responds and opens in new tab correctly
 mobile view displays table content clearly and forms work
 
-**Gallery Page tests**
+### Gallery Page tests
 
 click any picture to display image with caption
 click arrows left and right for next photo
