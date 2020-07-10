@@ -144,9 +144,9 @@ The following Technologies and languages were used to construct this project. I 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
-## Testing (To do)
+## Testing
 
-The following tests have been conducted with and by the club owners manually to confirm the functionality and experience of the site meets their expectations.
+The following tests have been successfully conducted with and by the club owners manually to confirm the functionality and experience of the site meets their expectations.
 
 All functionality and navigation aspects have been tested.  This has also been conducted on mobile devices and where certain features were expected to 
 display differently, these have been captured below for completeness. 
@@ -183,7 +183,7 @@ The club owners were very happy with the results and confirmed it would achieve 
     6. Repeat step 3 and 4 select and click the "Gemini Gym" Logo to return to the "Home" page
     7. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
     8. Repeat steps 3 to 6 from each page to arrive where selected
-    9. Make the screen size mobile view and see the Logo and dropdown icon function remain in view
+    9. Make the screen size mobile view and see the Logo and dropdown icon function remain in view and verify responsiveness
     10. Repeat steps 3 to 8 from each page for same results
 
 ### Newsletter and Social Media tests
@@ -212,7 +212,7 @@ The club owners were very happy with the results and confirmed it would achieve 
     4. Click each Social Media link to verify that the Social Media logon page opens in a new browser page
     5. Repeat steps 2 to 4 on "Classes", "Facilities", "Contact" and "Gallery" pages for same results
     6. Repeat steps 1 to 5 on Smaller screen sizes for same results and verify responsiveness
-    7. Repeat steps 1 to 5 on Mobile view for same results
+    7. Repeat steps 1 to 5 on Mobile view for same results and verify responsiveness
 
 ### Home Page tests
 
@@ -224,7 +224,7 @@ The club owners were very happy with the results and confirmed it would achieve 
     5. Return to "Home" page
     6. Repeat steps 4 and 5 on all other Read More buttons for same results
     7. Repeat steps 1 to 6 on Smaller screen sizes for same results and verify responsiveness
-    8. Repeat steps 1 to 6 on Mobile view for same results
+    8. Repeat steps 1 to 6 on Mobile view for same results and verify responsiveness
 
 2. **Enquiry Form function with and without mandatory fields entered**
     1. Go to the "Home" page
@@ -235,7 +235,7 @@ The club owners were very happy with the results and confirmed it would achieve 
     6. Try to submit the form with no enquiry description and verify that a relevant error message appears
     7. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
     8. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
-    9. Repeat steps 1 to 7 on Mobile view for same results
+    9. Repeat steps 1 to 7 on Mobile view for same results and verify responsiveness
 
 3. **Mobile only view removes thunbnail pictures**
     1. Make the screen Mobile view
@@ -293,19 +293,37 @@ The club owners were very happy with the results and confirmed it would achieve 
 
 ### Contact Page tests
 
-form functions with and without mandatory fields entered
-form submit button hover and send functions
-google map responds and opens in new tab correctly
-mobile view displays table content clearly and forms work
+1. **Contact Us form function**
+    1. Go to the "Contact" page
+    2. Move the mouse over Let us Help you button for hover color scheme on the button to change
+    3. Try the Let us Help you button with no field details added to verify that an error message about the required field appears
+    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    5. Try to submit the form with no phone number and verify that a relevant error message appears
+    6. Try to submit the form with no enquiry description and verify that a relevant error message appears
+    7. Try to submit the form with all fields and valid email address and verify that its successful and remains on the "Contact" page 
+    8. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
+    9. Repeat steps 1 to 7 on Mobile view for same results and verify responsiveness
+ 
+2. **Google map feature** 
+    1. Go to the "Contact" page
+    2. Move the mouse over the Google map feature and verify scroll and zoom functionality works
+    3. Click View larger map button and verify Google Maps responds and opens in a new browser tab
+    4. Repeat steps 1 to 3 on Smaller screen sizes for same results and verify responsiveness
+    5. Repeat steps 1 to 3 on Mobile view for same results and verify responsiveness
 
 ### Gallery Page tests
 
-click any picture to display image with caption
-click arrows left and right for next photo
-select thumbnail button to show all photos
-select slideshow to automatically scroll photos
-Close display to return to gallery page
-mobile view displays gallery content clearly and functions work
+1. **Gallery display functions**
+    1. Go to the "Gallery" page
+    2. Click any picture shown to display that image with caption and verify background is opaque
+    3. Click right hand arrow and then left and right hand arrows to verify the next photo's display in view
+    4. Select thumbnail button (top right of screen) to verify all photos appear on the right side of the screen
+    5. Click any thumbnail picture to verify it displays with its corresponding caption
+    6. Select Start slideshow (top right of screen) to verify all photos cycle through slideshow mode with its corresponding caption
+    7. Click Pause slideshow (top right of screen) to verify the slideshow pauses on the desired photo
+    8. Select Close (top right of screen) to verify you return to the "Gallery" page
+    9. Repeat steps 1 to 8 on Smaller screen sizes for same results and verify responsiveness
+    10. Repeat steps 1 to 8 on Mobile view for same results and verify responsiveness
 
 ## Deployment (To do)
 
