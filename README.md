@@ -364,6 +364,9 @@ In case you want to pull the code from my Github repository:
 - The coffee bar and birthday celebration photos were obtained from google images
 
 ### Acknowledgements
-- I received inspiration for this project from the Gemini club owners
-- My older children have also reviewed progress and provided constructive feedback
+- I received inspiration for this project from the Gemini club owners.
+- I received assistance, feedback and encouragement from my mentor @Ignatius Ukwuoma.
+- I received help and suggestions from Code Institute tutors.
+- The project code has been reviewed by the Code Institute Slack community.
+- My older children have also reviewed progress and provided constructive feedback.
 
