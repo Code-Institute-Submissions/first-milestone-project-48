@@ -325,7 +325,7 @@ The club owners were very happy with the results and confirmed it would achieve 
     1. Repeat steps 1 to 8 on Smaller screen sizes for same results and verify responsiveness
     1. Repeat steps 1 to 8 on Mobile view for same results and verify responsiveness
 
-## Deployment (To do)
+## Deployment
 
 This project was developed on [GitPod](https://www.gitpod.io/), committed to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/) using the 
 Gitpod Terminal.
