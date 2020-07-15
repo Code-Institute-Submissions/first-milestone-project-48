@@ -161,180 +161,196 @@ The club owners were very happy with the results and confirmed it would achieve 
 
 1. **Menu box hover color change feature**
     1. Go to the "Home" page
-    2. Move the mouse over the "Home" menu box to see the darker hover shadow appear from top to bottom
-    3. Move the mouse off the "Home" menu box to see the darker hover shadow disappear from bottom to top
-    4. Repeat steps on "Classes", "Facilities", "Contact" and "Gallery" menu boxes
+    1. Move the mouse over the "Home" menu box to see the darker hover shadow appear from top to bottom
+    1. Move the mouse off the "Home" menu box to see the darker hover shadow disappear from bottom to top
+    1. Repeat steps on "Classes", "Facilities", "Contact" and "Gallery" menu boxes
 
 2. **Menu and Logo Navigations**
     1. Go to the "Home" page
-    2. Select and click the "Classes" menu box to arrive at the "Classes" page
-    3. Select and click the "Home" menu box to return to the "Home" page
-    4. Repeat step 2 and select and click the "Gemini Gym" Logo to return to the "Home" page
-    5. Repeat step 2 and select and click the browser back arrow to return to the "Home" page (tested only to make sure nothing breaks)
-    6. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
-    7. Repeat steps 3 to 6 from each page to arrive where selected
+    1. Select and click the "Classes" menu box to arrive at the "Classes" page
+    1. Select and click the "Home" menu box to return to the "Home" page
+    1. Repeat step 2 and select and click the "Gemini Gym" Logo to return to the "Home" page
+    1. Repeat step 2 and select and click the browser back arrow to return to the "Home" page (tested only to make sure nothing breaks)
+    1. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
+    1. Repeat steps 3 to 6 from each page to arrive where selected
 
 3. **Mobile and Smaller screen sizes**
     1. Go to the "Home" page
-    2. Make the screen size smaller and see the Logo and menu boxes change to Logo and dropdown icon function
-    3. Click the dropdown icon and display the menu boxes
-    4. Select and click the "Classes" menu box to arrive at the "Classes" page
-    5. Click the dropdown icon and display the menu boxes and select "Home" menu box to return to the "Home" page
-    6. Repeat step 3 and 4 select and click the "Gemini Gym" Logo to return to the "Home" page
-    7. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
-    8. Repeat steps 3 to 6 from each page to arrive where selected
-    9. Make the screen size mobile view and see the Logo and dropdown icon function remain in view and verify responsiveness
-    10. Repeat steps 3 to 8 from each page for same results
+    1. Make the screen size smaller and see the Logo and menu boxes change to Logo and dropdown icon function
+    1. Click the dropdown icon and display the menu boxes
+    1. Select and click the "Classes" menu box to arrive at the "Classes" page
+    1. Click the dropdown icon and display the menu boxes and select "Home" menu box to return to the "Home" page
+    1. Repeat step 3 and 4 select and click the "Gemini Gym" Logo to return to the "Home" page
+    1. Select and click all other menu boxes of "Facilities", "Contact" and "Gallery" to arrive at the specified page
+    1. Repeat steps 3 to 6 from each page to arrive where selected
+    1. Make the screen size mobile view and see the Logo and dropdown icon function remain in view and verify responsiveness
+    1. Repeat steps 3 to 8 from each page for same results
 
 ### Newsletter and Social Media tests
 
 1. **Newsletter form with and without mandatory field entered**
     1. Go to the "Home" page
-    2. Scroll to footer of the page and move mouse over Submit button for hover colour to darken the button
-    3. Try the Submit button with no email address added to verify that an error message about the required field appears
-    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    5. Try to submit the form with a valid email address and verify that its successful and returns you to the top of the page
+    1. Scroll to footer of the page and move mouse over Submit button for hover colour to darken the button
+    1. Try the Submit button with no email address added to verify that an error message about the required field appears
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form with a valid email address and verify that its successful and returns you to the top of the page
 
 2. **Mobile and Smaller screen sizes**
     1. Go to the "Home" page
-    2. Make the screen size smaller and verify responsiveness
-    3. Scroll to footer of the page and move mouse over Submit button for hover colour to darken the button
-    4. Try the Submit button with no email address added to verify that an error message about the required field appears
-    5. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    6. Try to submit the form with a valid email address and verify that its successful and returns you to the top of the page 
-    7. Make the screen Mobile view and verify responsiveness
-    8. Repeat steps 3 to 6 from each page for same results 
+    1. Make the screen size smaller and verify responsiveness
+    1. Scroll to footer of the page and move mouse over Submit button for hover colour to darken the button
+    1. Try the Submit button with no email address added to verify that an error message about the required field appears
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form with a valid email address and verify that its successful and returns you to the top of the page 
+    1. Make the screen Mobile view and verify responsiveness
+    1. Repeat steps 3 to 6 from each page for same results 
 
 3. **Social Media link and hover color change features**
     1. Go to the "Home" page
-    2. Scroll to footer of the page and move mouse over Social Media link button for hover color to invert color scheme on the button
-    3. Move the mouse off the Social Media link button to see the color scheme return to normal
-    4. Click each Social Media link to verify that the Social Media logon page opens in a new browser page
-    5. Repeat steps 2 to 4 on "Classes", "Facilities", "Contact" and "Gallery" pages for same results
-    6. Repeat steps 1 to 5 on Smaller screen sizes for same results and verify responsiveness
-    7. Repeat steps 1 to 5 on Mobile view for same results and verify responsiveness
+    1. Scroll to footer of the page and move mouse over Social Media link button for hover color to invert color scheme on the button
+    1. Move the mouse off the Social Media link button to see the color scheme return to normal
+    1. Click each Social Media link to verify that the Social Media logon page opens in a new browser page
+    1. Repeat steps 2 to 4 on "Classes", "Facilities", "Contact" and "Gallery" pages for same results
+    1. Repeat steps 1 to 5 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 5 on Mobile view for same results and verify responsiveness
 
 ### Home Page tests
 
 1. **Read More buttons hover and Action Features**
     1. Go to the "Home" page
-    2. Scroll down to "Our Classes" section and move mouse over Read More button for hover color scheme on the button to change
-    3. Repeat step 2 on all other Read More buttons for same results
-    4. Click the Read More button to verify it takes you to the "Classes" page
-    5. Return to "Home" page
-    6. Repeat steps 4 and 5 on all other Read More buttons for same results
-    7. Repeat steps 1 to 6 on Smaller screen sizes for same results and verify responsiveness
-    8. Repeat steps 1 to 6 on Mobile view for same results and verify responsiveness
+    1. Scroll down to "Our Classes" section and move mouse over Read More button for hover color scheme on the button to change
+    1. Repeat step 2 on all other Read More buttons for same results
+    1. Click the Read More button to verify it takes you to the "Classes" page
+    1. Return to "Home" page
+    1. Repeat steps 4 and 5 on all other Read More buttons for same results
+    1. Repeat steps 1 to 6 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 6 on Mobile view for same results and verify responsiveness
 
 2. **Enquiry Form function with and without mandatory fields entered**
     1. Go to the "Home" page
-    2. Scroll down to the Enquiry form section of the page
-    3. Try the Let us Help you button with no field details added to verify that an error message about the required field appears
-    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    5. Try to submit the form with no phone number and verify that a relevant error message appears
-    6. Try to submit the form with no enquiry description and verify that a relevant error message appears
-    7. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
-    8. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
-    9. Repeat steps 1 to 7 on Mobile view for same results and verify responsiveness
+    1. Scroll down to the Enquiry form section of the page
+    1. Try the Let us Help you button with no field details added to verify that an error message about the required field appears
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form with no phone number and verify that a relevant error message appears
+    1. Try to submit the form with no enquiry description and verify that a relevant error message appears
+    1. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
+    1. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 7 on Mobile view for same results and verify responsiveness
 
 3. **Mobile only view removes thunbnail pictures**
     1. Make the screen Mobile view
-    2. Go to the "Home" page
-    3. Scroll down to "Our Classes" section and verify that thumbnail pictures are removed from view
-    4. Verify all content displays correctly
+    1. Go to the "Home" page
+    1. Scroll down to "Our Classes" section and verify that thumbnail pictures are removed from view
+    1. Verify all content displays correctly
 
 ### Classes Page tests
 
 1. **Register now button hover feature**
     1. Go to the "Classes" page
-    2. Scroll down and move mouse over Register Now button for hover color scheme on the button to change
-    3. Repeat step 2 on all other Register Now buttons for same results
-    4. Click the Register Now button to verify it does not respond (future feature but provided for visual representation)
-    5. Repeat steps 1 to 4 on Smaller screen sizes for same results
-    6. Repeat steps 1 to 4 on Mobile view for same results and verify responsiveness
-    7. Verify tables are responsive to Smaller screen and Mobile size changes
+    1. Scroll down and move mouse over Register Now button for hover color scheme on the button to change
+    1. Repeat step 2 on all other Register Now buttons for same results
+    1. Click the Register Now button to verify it does not respond (future feature but provided for visual representation)
+    1. Repeat steps 1 to 4 on Smaller screen sizes for same results
+    1. Repeat steps 1 to 4 on Mobile view for same results and verify responsiveness
+    1. Verify tables are responsive to Smaller screen and Mobile size changes
 
 2. **Mobile only view removes thunbnail pictures**
     1. Make the screen Mobile view
-    2. Go to the "Classes" page
-    3. Scroll down to verify that thumbnail pictures are removed from view
-    4. Verify all content displays correctly
+    1. Go to the "Classes" page
+    1. Scroll down to verify that thumbnail pictures are removed from view
+    1. Verify all content displays correctly
 
 ### Facilities Page tests
 
 1. **Hire our Gym Facilities form**
     1. Go to the "Facilities" page
-    2. Scroll down and move mouse over Hire Us button for hover color scheme on the button to change
-    3. Click the Hire Us button to verify it opens the pop up form
-    4. Click outside of the form to verify form disappears and you remain on the "Facilities" page
-    5. Repeat step 3
-    6. Try the Hire Us button with no field details added to verify that an error message about the required field appears
-    7. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    8. Try to submit the form with no enquiry description and verify that a relevant error message appears
-    9. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
-    10. Repeat steps 1 to 9 on Smaller screen sizes for same results and verify responsiveness
-    11. Repeat steps 1 to 9 on Mobile view for same results and verify responsiveness
+    1. Scroll down and move mouse over Hire Us button for hover color scheme on the button to change
+    1. Click the Hire Us button to verify it opens the pop up form
+    1. Click outside of the form to verify form disappears and you remain on the "Facilities" page
+    1. Repeat step 3
+    1. Try the Hire Us button with no field details added to verify that an error message about the required field appears
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form with no enquiry description and verify that a relevant error message appears
+    1. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
+    1. Repeat steps 1 to 9 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 9 on Mobile view for same results and verify responsiveness
 
 2. **Book a Birthday form**
     1. Go to the "Facilities" page
-    2. Scroll down and move mouse over Book Now button for hover color scheme on the button to change
-    3. Click the Book Now button to verify it opens the pop up form
-    4. Click outside of the form to verify form disappears and you remain on the "Facilities" page
-    5. Repeat step 3
-    6. Try the Book Now button with no field details added to verify that an error message about the required field appears
-    7. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    8. Try to submit the form with no date entered and verify that a relevant error message appears
-    9. Try to click the calendar icon and select a date to verify that the date populates in the field correctly
-    10. Try to submit the form with no number of children selected and verify that a relevant error message appears
-    11. Try to use the up arrow on number of children field and verify it wont exceed maximum number of 25
-    12. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
-    13. Repeat steps 1 to 12 on Smaller screen sizes for same results and verify responsiveness
-    14. Repeat steps 1 to 12 on Mobile view for same results and verify responsiveness
+    1. Scroll down and move mouse over Book Now button for hover color scheme on the button to change
+    1. Click the Book Now button to verify it opens the pop up form
+    1. Click outside of the form to verify form disappears and you remain on the "Facilities" page
+    1. Repeat step 3
+    1. Try the Book Now button with no field details added to verify that an error message about the required field appears
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form with no date entered and verify that a relevant error message appears
+    1. Try to click the calendar icon and select a date to verify that the date populates in the field correctly
+    1. Try to submit the form with no number of children selected and verify that a relevant error message appears
+    1. Try to use the up arrow on number of children field and verify it wont exceed maximum number of 25
+    1. Try to submit the form with all fields and valid email address and verify that its successful and returns you to the top of the page 
+    1. Repeat steps 1 to 12 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 12 on Mobile view for same results and verify responsiveness
 
 ### Contact Page tests
 
 1. **Contact Us form function**
     1. Go to the "Contact" page
-    2. Move the mouse over Let us Help you button for hover color scheme on the button to change
-    3. Try the Let us Help you button with no field details added to verify that an error message about the required field appears
-    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    5. Try to submit the form with no phone number and verify that a relevant error message appears
-    6. Try to submit the form with no enquiry description and verify that a relevant error message appears
-    7. Try to submit the form with all fields and valid email address and verify that its successful and remains on the "Contact" page 
-    8. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
-    9. Repeat steps 1 to 7 on Mobile view for same results and verify responsiveness
+    1. Move the mouse over Let us Help you button for hover color scheme on the button to change
+    1. Try the Let us Help you button with no field details added to verify that an error message about the required field appears
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form with no phone number and verify that a relevant error message appears
+    1. Try to submit the form with no enquiry description and verify that a relevant error message appears
+    1. Try to submit the form with all fields and valid email address and verify that its successful and remains on the "Contact" page 
+    1. Repeat steps 1 to 7 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 7 on Mobile view for same results and verify responsiveness
  
 2. **Google map feature** 
     1. Go to the "Contact" page
-    2. Move the mouse over the Google map feature and verify scroll and zoom functionality works
-    3. Click View larger map button and verify Google Maps responds and opens in a new browser tab
-    4. Repeat steps 1 to 3 on Smaller screen sizes for same results and verify responsiveness
-    5. Repeat steps 1 to 3 on Mobile view for same results and verify responsiveness
+    1. Move the mouse over the Google map feature and verify scroll and zoom functionality works
+    1. Click View larger map button and verify Google Maps responds and opens in a new browser tab
+    1. Repeat steps 1 to 3 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 3 on Mobile view for same results and verify responsiveness
 
 ### Gallery Page tests
 
 1. **Gallery display functions**
     1. Go to the "Gallery" page
-    2. Click any picture shown to display that image with caption and verify background is opaque
-    3. Click right hand arrow and then left and right hand arrows to verify the next photo's display in view
-    4. Select thumbnail button (top right of screen) to verify all photos appear on the right side of the screen
-    5. Click any thumbnail picture to verify it displays with its corresponding caption
-    6. Select Start slideshow (top right of screen) to verify all photos cycle through slideshow mode with its corresponding caption
-    7. Click Pause slideshow (top right of screen) to verify the slideshow pauses on the desired photo
-    8. Select Close (top right of screen) to verify you return to the "Gallery" page
-    9. Repeat steps 1 to 8 on Smaller screen sizes for same results and verify responsiveness
-    10. Repeat steps 1 to 8 on Mobile view for same results and verify responsiveness
+    1. Click any picture shown to display that image with caption and verify background is opaque
+    1. Click right hand arrow and then left and right hand arrows to verify the next photo's display in view
+    1. Select thumbnail button (top right of screen) to verify all photos appear on the right side of the screen
+    1. Click any thumbnail picture to verify it displays with its corresponding caption
+    1. Select Start slideshow (top right of screen) to verify all photos cycle through slideshow mode with its corresponding caption
+    1. Click Pause slideshow (top right of screen) to verify the slideshow pauses on the desired photo
+    1. Select Close (top right of screen) to verify you return to the "Gallery" page
+    1. Repeat steps 1 to 8 on Smaller screen sizes for same results and verify responsiveness
+    1. Repeat steps 1 to 8 on Mobile view for same results and verify responsiveness
 
 ## Deployment (To do)
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+This project was developed on [GitPod](https://www.gitpod.io/), committed to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/) using the 
+Gitpod Terminal.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+To deploy Gemini Gymnastic Club to GitHub Pages from its [GitHub repository](https://github.com/Housty/first-milestone-project), the following steps were taken:
 
-- Different configuration files?
-- Separate git branch?
+1. Log in to GitHub,
+1. Select the repository you want to deploy
+1. Under the repository name, click **Settings**.
+1. Under "GitHub Pages", use the Source drop-down menu and select the **master branch**.
+1. The message "Your site is ready to be published at Link will appear under Github Pages.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### How to run this project locally
+
+In case you want to pull the code from my Github repository:
+
+1. Log in to [GitHub](https://github.com/)
+1. Follow this [link](https://github.com/Housty/first-milestone-project) to the project repository.
+1. Under the repository name, click the **Code button** and select **Clone or download**.
+1. To clone the repository using HTTPS, under "Clone with HTTPS", click the **clipboard icon**. To clone the repository using an SSH key, including a certificate issued by 
+    your organization's SSH certificate authority, click **Use SSH**, then click the **clipboard icon**. 
+1. Open Git Bash.
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type `git clone`, and then paste the URL you copied in Step 3.
+1. Press **Enter**. Your local clone will be created.
 
 ## Credits
 

@@ -23,10 +23,7 @@ body {
     height: 450px;
     width: 100%;
 
-    background: url("../images/hire-us-image.jpg") no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("../images/hire-us-image.jpg") no-repeat;
     background-size: cover;
 
     position: relative;
@@ -59,7 +56,7 @@ body {
 }
 
 .ui-menu-color-menuicon {
-background-color: #05056d;
+    background-color: #05056d;
 }
 
 /*---------------------------------- Paddings/margins/text */
@@ -260,10 +257,6 @@ footer {
     text-align: center;
     color: #17a2b8;
     background: #05056d;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -322,9 +315,7 @@ footer {
 
     background: url("../images/coffee-bar.jpg") no-repeat;
     background-position: bottom left; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    
     background-size: cover;
 
     display: flex;
@@ -339,9 +330,6 @@ footer {
     width: 100%;
 
     background: url("../images/party-balloons.jpg") no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
     display: flex;
@@ -356,9 +344,6 @@ footer {
     width: 100%;
 
     background: url("../images/hire-us-image.jpg") no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
     display: flex;
