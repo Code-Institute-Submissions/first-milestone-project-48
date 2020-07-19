@@ -2,6 +2,8 @@
 
 body {
     font-family: "Exo", sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .container-wrapper {}
@@ -68,10 +70,6 @@ h4 {
     margin: 0;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -84,6 +82,14 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.address {
+    padding: 0;
+}
+
+.p-style-1 {
+    padding-top: 10px;
 }
 
 /*----------------------------------Dividers */
@@ -119,6 +125,7 @@ h4 {
     background-color:#05056d; 
     width: 200px; 
     text-align:center;
+    margin-top: 15px;
 }
 
 
@@ -285,6 +292,7 @@ footer {
 }
 
 .statement-slogan p {
+    font-style: italic;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -300,6 +308,7 @@ footer {
 
 .facility {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
