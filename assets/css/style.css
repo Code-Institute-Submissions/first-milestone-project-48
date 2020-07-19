@@ -8,13 +8,13 @@ body {
 
 .container-wrapper--orange {
     background-color: #e67e22;
-    color: white;
+    color: #fff;
     margin-top: 0;
 }
 
 .container-wrapper--pink {
     background-color: rgb(187, 46, 140);
-    color: white;
+    color: #fff;
     margin-top: 0;
 }
 
@@ -231,7 +231,7 @@ header {
 .class-header .btn:hover {
     background-color: #17a2b8;
     border-color: #17a2b8;
-    color: white;
+    color: #fff;
 }
 
 /*----------------------------------Footer */
@@ -385,21 +385,21 @@ footer {
 }
 
 .jumbotron-header {
-    color: white;
+    color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .jumbotron .lead {
     margin: 25px;
-    color: white;
+    color: #fff;
 }
 
 /*----------------------------------Buttons */
 
 .class-header .btn {
-    background-color: lightgrey;
-    border-color: lightgrey;
+    background-color: rgb(211, 211, 211);
+    border-color: rgb(211, 211, 211);
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;

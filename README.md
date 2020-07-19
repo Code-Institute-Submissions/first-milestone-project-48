@@ -1,5 +1,7 @@
 # Gemini Gymnastic Club Website
 
+![Image of Gemini Logo](https://housty.github.com/images/gemini-logo.png)
+
 Gemini Gymnastic club provides gymnastic, trampolining and free g coaching in structured and fun classes for 800 members.  The members range from babies with their parents 
 through to adults currently and the club are always looking for new members to join them.
 
@@ -358,6 +360,8 @@ In case you want to pull the code from my Github repository:
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type `git clone`, and then paste the URL you copied in Step 3.
 1. Press **Enter**. Your local clone will be created.
+
+The live published site is [Gemini Gymnastic Club](https://housty.github.io/first-milestone-project/)
 
 ## Credits
 
