@@ -1,6 +1,6 @@
 # Gemini Gymnastic Club Website
 
-![Image of Gemini Logo](https://housty.github.com/images/gemini-logo.png)
+![Image of Gemini Logo](https://housty.github.com/assets/images/gemini-logo.png)
 
 Gemini Gymnastic club provides gymnastic, trampolining and free g coaching in structured and fun classes for 800 members.  The members range from babies with their parents 
 through to adults currently and the club are always looking for new members to join them.
